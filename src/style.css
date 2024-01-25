@@ -17,6 +17,7 @@
   width: 288px;
   margin: 0 auto;
   background-color: #333;
+  box-shadow: 0 5px 0 #000000;
   border-radius: 15px;
 }
 
@@ -36,7 +37,7 @@ h1 {
   width: 238px;
   margin-bottom: 20px;
   border-radius: 5px;
-  box-shadow: 0 5px 0 #222;
+  box-shadow: 0 5px 0 #000000;
 }
 
 button {
@@ -48,7 +49,7 @@ button {
   border-radius: 6px;
   transition: all 0.2s ease;
   font-size: 20px;
-  box-shadow: 0 5px 0 #222;
+  box-shadow: 0 5px 0 #000000;
 }
 
 button:active {
@@ -58,4 +59,11 @@ button:active {
 
 .orange {
   background-color: orange;
+}
+
+.clear {
+  width: 110px;
+  margin: 6px 4px;
+  background-color: rgb(196, 8, 8);
+  display: block;
 }

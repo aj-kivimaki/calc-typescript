@@ -2,5 +2,5 @@
 
 - add
 - substract
-- multyply
+- multiply
 - divide
