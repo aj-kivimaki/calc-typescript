@@ -1,0 +1,61 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  width: 288px;
+  margin: 0 auto;
+  background-color: #333;
+  border-radius: 15px;
+}
+
+h1 {
+  padding-top: 10px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.calculator {
+  padding: 25px;
+}
+
+.screen {
+  background-color: lightgray;
+  height: 60px;
+  width: 238px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 0 #222;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+  margin-bottom: 6px;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-size: 20px;
+  box-shadow: 0 5px 0 #222;
+}
+
+button:active {
+  background-color: white;
+  color: #333;
+}
+
+.orange {
+  background-color: orange;
+}
