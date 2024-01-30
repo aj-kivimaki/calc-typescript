@@ -21,7 +21,7 @@ function calc(char: string) {
 }
 
 // Handle button click event
-function handleClick(e: Event) {
+function handleClick(e: MouseEvent) {
   const button = (e.target as HTMLInputElement).value;
 
   // Clear everything
@@ -79,14 +79,14 @@ function handleClick(e: Event) {
 }
 
 // Reset the calculator to initial state
-function resetCalc() {
+function resetCalc(): void {
   expressionString = "0.00";
   screenValueString = "0.00";
   updateScreenValue(screenValueString);
 }
 
 // Set screen value and update the DOM
-function updateScreenValue(value: string) {
+function updateScreenValue(value: string): void {
   screenValueString = value;
   screenEl.textContent = screenValueString;
 }
