@@ -1,0 +1,6 @@
+projectKey=ts-calc
+serverUrl=http://localhost:8889
+serverVersion=10.3.0.82913
+dashboardUrl=http://localhost:8889/dashboard?id=ts-calc
+ceTaskId=AY2sAg2cWCBLmZPRDfRb
+ceTaskUrl=http://localhost:8889/api/ce/task?id=AY2sAg2cWCBLmZPRDfRb
